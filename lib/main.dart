@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(Firebase.apps[0].options.projectId);
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),

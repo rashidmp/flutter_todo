@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 100,
             ),
           ),
-          const Expanded(
+          Expanded(
             child: TodoScreen(),
           ),
         ],
